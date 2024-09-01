@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.movie-container{
+    height: 450px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+img{
+    width: 100%;
+
+}
+.movie-description{
+    text-align: center;
+ 
+}
+button{
+    background-color: #94d2f6;
+    padding: 5px 10px;
+    border: none;
+}

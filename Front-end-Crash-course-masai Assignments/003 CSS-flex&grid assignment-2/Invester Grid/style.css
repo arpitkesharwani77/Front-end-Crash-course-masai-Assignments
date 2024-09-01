@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.main-container{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    
+}
+
+.companies-logos-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px;
+}
+
+
+.strategic-investers-detail-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat((5,1fr));
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    
+}
+.str-invester{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px; 
+}
+.str-invester img{
+    width: 100%;
+    
+}
+.invester-detail>h3{
+    font-size: 25px;
+    margin: 0px;
+}
+.invester-detail>p{
+    font-size:20px;
+    margin: 2px;
+}
+.invs-comp-logo{
+    width: 150px;
+    margin: auto;
+}
