@@ -52,7 +52,7 @@
  
 }
 .main-body>h1{
-    font-size:40px;
+    font-size:50px;
 }
 
 .main-cards-container{
@@ -73,7 +73,97 @@
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.blog-section{
-   text-align: center;
+.blog-section>h1{
+   text-align: left;
+   margin-left: 230px;
+   font-size: 30px;
    
+}
+.blog-cards{
+    display: flex;
+    margin: 50px 30px;
+    justify-content: center;
+    gap: 30px;
+ 
+
+    
+}
+.bg-card{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    
+}
+.bg-card>p{
+    text-align: left;
+    margin: 10px;
+}
+.bg-card h3{
+    text-align: left;
+    margin: 10px;
+    font-size: 22px;
+}
+.bg-card >img{
+    width: 100%;;
+}
+.split-img-container{
+    display: flex;
+    width: 300px;
+}
+.split-img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+.form-section{
+    background-color: #f2b100;
+    padding: 50px;
+}
+.form-container{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 22px;
+    
+}
+.form-container h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.form-container p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-container input{
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+}
+#submit-btn{
+    background-color: #3470e4;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+#terms-condition{
+    text-align: left;
+    margin-top: 20px;
+}
+.footer-section{
+    background-color: #282120;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
 }
