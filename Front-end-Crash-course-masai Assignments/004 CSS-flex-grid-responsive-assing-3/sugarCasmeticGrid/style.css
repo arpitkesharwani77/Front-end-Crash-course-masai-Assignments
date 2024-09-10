@@ -1,0 +1,10 @@
+*{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container-grid{
+    display: grid;
+}
+    grid-template-columns: repeat(autofill ,minmax(100px,1fr));
+
