@@ -101,3 +101,22 @@ console.log(newMergeObject)
 
 console.log("<================Question5======================>")
 // 5. Advanced Shorthand Usage: Create a function updateperson(oldperson, newName) that updates only the name of a person object using object spread syntax and object shorthand.
+
+
+// Function to update only the name of a person object
+function updatePerson(oldPerson, newName) {
+    return {
+      ...oldPerson,  // Copy all properties from oldPerson
+      name: newName  // Update the name property
+    };
+  }
+  
+
+  const person5 = { name: "John", age: 30, occupation: "Engineer" };
+  const updatedPerson = updatePerson(person5, "Alice");
+  
+  console.log(updatedPerson);
+  // Output: { name: 'Alice', age: 30, occupation: 'Engineer' }
+
+  console.log(person5,"original will not changed")
+  
