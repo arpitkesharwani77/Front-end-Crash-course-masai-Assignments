@@ -118,5 +118,4 @@ function updatePerson(oldPerson, newName) {
   console.log(updatedPerson);
   // Output: { name: 'Alice', age: 30, occupation: 'Engineer' }
 
-  console.log(person5,"original will not changed")
-  
+  console.log(person5,"original will not changed")  
