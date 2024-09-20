@@ -2,8 +2,9 @@
 
 <==========================Problem Statement================================>
 
-•
--Given an array of strings representing sentences, write a function that logs (console.log()) the number of words in each sentence to the console using .forEach()
+
+-Given an array of strings representing sentences,
+ write a function that logs (console.log()) the number of words in each sentence to the console using .forEach()
 
 -for each sentence print a message "sentence 1 contains 9 words."
 in console.
@@ -12,19 +13,19 @@ in console.
 
 input:==>
 
-const sentences = [
-    "The quick brown fox jumps over the lazy dog.",
-    "She sells seashells by the seashore.",
-    "I have a dream that one day this nation will rise up.",
-    "To be or not to be, that is the question.",
-    "In the beginning, God created the heavens and the earth.",
-  ];
+  const sentences = [
+      "The quick brown fox jumps over the lazy dog.",
+      "She sells seashells by the seashore.",
+      "I have a dream that one day this nation will rise up.",
+      "To be or not to be, that is the question.",
+      "In the beginning, God created the heavens and the earth.",
+    ];
 
 output:==>
 
-output should look like this.-->
+    output should look like this.-->
 
-"sentence 1 contains 9 words."
+    "sentence 1 contains 9 words."
 
 
 */
