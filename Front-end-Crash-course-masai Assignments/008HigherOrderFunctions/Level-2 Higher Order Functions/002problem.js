@@ -59,15 +59,22 @@ let allStudentsMarksData = [prateekMarksData, nrupulMarksData];
   },
 ];
 
-
-
 */  
 
-function ImplementationPS7(allStudentsMarksData){
-
-
+function ImplementationPS7(allStudentsMarksData) {
+  return allStudentsMarksData.map(student => {
+    const marks = [];
+    
+    for (let i = 1; i <= 5; i++) {
+     const subject = student[`subject${i}`];
+      const score = student[`marks${i}`];
+      if (subject && score !== null) {
+        marks.push({ subject, score });
+      }
+    }
+    return { name: student.name, marks };
+  });
 }
-
 let prateekMarksData = {
     name: "Prateek",
     subject1: "Javascript",
@@ -94,7 +101,11 @@ let prateekMarksData = {
     marks3: null,
     marks4: null,
     marks5: null,
-  };
+};
   
-  let allStudentsMarksData = [prateekMarksData, nrupulMarksData];
+let allStudentsMarksData = [prateekMarksData, nrupulMarksData];
+
+console.log(ImplementationPS7(allStudentsMarksData));
+
+console.log(JSON.stringify(ImplementationPS7(allStudentsMarksData), null, 2));
   
