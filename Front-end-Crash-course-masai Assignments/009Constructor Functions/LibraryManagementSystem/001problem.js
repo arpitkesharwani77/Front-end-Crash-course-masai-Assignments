@@ -1,3 +1,27 @@
+// <==========================problem Statement=================>
+
+/*
+You are tasked with developing a small library management system in JavaScript. 
+The system should manage a collection of books and support various operations such as
+adding new books, filtering books based on certain criteria, and performing statistical
+ calculations on the collection. Specifically, you need to create a Book class using the
+ES6 class syntax with properties for title, author, year, and genre,
+ and a method to return the book's information as a string. Additionally, 
+you should create a Library class to manage the book collection,
+where the constructor initializes an empty array of books 
+and includes a method to add books to the collection. 
+Implement a factory function to create new books.
+Furthermore, the Library class should have methods to 
+filter books published after a given year using filter, 
+return an array of all book titles using map,
+calculate the total number of books using reduce,
+and calculate the average publication year of all books using reduce.
+Use these components to effectively
+manage the library's book collection and perform the specified operations.
+
+*/    
+
+
 class Book{
     constructor(title,author,year,genre){
         this.title=title;
